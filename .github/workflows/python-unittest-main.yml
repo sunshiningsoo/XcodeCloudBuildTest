@@ -32,3 +32,6 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
+      - name: run main
+        run: |
+          python main.py
